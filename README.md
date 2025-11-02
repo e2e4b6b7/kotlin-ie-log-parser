@@ -12,7 +12,7 @@ val IE_DIAGNOSTIC by warning<KtElement> {
 
 Write your checker and report any data associated with your diagnostic using the reporter in `report/reporter.kt` from this repository.
 
-Get two logs from external and internal projects. (`compilation-diagnostics-log.yaml.txt` in artifacts) and put them as separate files in `Logs` folder.
+Get two logs from external and internal projects. (`compilation-diagnostics-log.yaml.txt` in artifacts) and put them as separate files in `./Logs` folder.
 
 Run `main` function from `Main.kt` from module `app` to generate data classes and check if everything is ok.
 
