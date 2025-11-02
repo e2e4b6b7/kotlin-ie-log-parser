@@ -5,7 +5,7 @@
 Register a new diagnostic in `FirDiagnosticsList.kt` with the name `IE_DIAGNOSTIC` and only one string parameter (a group does not matter):
 
 ```kotlin
-val MY_IE_ERROR by warning<KtElement> {
+val IE_DIAGNOSTIC by warning<KtElement> {
     parameter<String>("info")
 }
 ```
